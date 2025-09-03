@@ -1,4 +1,5 @@
 import Nav from "./components/Nav.jsx";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function Section({ id, title, children }) {
   return (
@@ -486,6 +487,7 @@ export default function App() {
           </p>
         </div>
       </footer>
+      <SpeedInsights />
     </div>
   );
 }
